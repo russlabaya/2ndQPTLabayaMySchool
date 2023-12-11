@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+.item1 { grid-area: header; background-color: red;}
+.item2 { grid-area: menu; background-color: orange;}
+.item3 { grid-area: main; background-color: yellow;}
+.item5 { grid-area: footer; background-color: blue;}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item1">This is my story</div>
+  <div class="item2">Navigation<ul>
+  <li><a href="index.html">About Me</a></li>
+  <li><a href="my school.html">My School</a></li>
+  <li><a href="my hobbies.html">My Hobbies</a></li>
+  <li><a href="singapore.html">My trip to Singapore</a></li>
+  <li><a href="australia.html">My trip to Australia</a></li></li>
+</ul></div>
+  <div class="item3">My school is Don Bosco Technical College in Punta Pincesa Cebu City. I have met so many wonderful people in this school. Even since 2019, I have enjoyed my time in school even when there was a pandemic happening. In my own words, Don Bosco is the best thing that has happened to me.<br> <img src="385373706_210112818753720_2394489223180183271_n.jpg"> </div>  
+  <div class="item5">Made by Russell Labaya</div>
+</div>
+
+</body>
+</html>
